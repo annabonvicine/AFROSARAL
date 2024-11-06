@@ -17,7 +17,7 @@ body {
 
 /* Estilo do cabeçalho */
 header {
-  background-color: #4CAF50;
+  background-color: #644306;
   color: white;
   text-align: center;
   padding: 20px;
@@ -36,16 +36,17 @@ header p {
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 20px;
-  padding: 20px;
+  gap: 80px;
+  padding: 80px;
   max-width: 1200px;
   margin: 0 auto;
+  
 }
 
 /* Estilo dos blocos clicáveis */
 .block {
   background-color: #fff;
-  border: 2px solid #4CAF50;
+  border: 2px solid #6e5604;
   border-radius: 8px;
   padding: 20px;
   text-align: center;
@@ -53,7 +54,7 @@ header p {
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -65,7 +66,7 @@ header p {
 
 .block h2 {
   font-size: 1.8em;
-  color: #4CAF50;
+  color: #865d03;
   margin-bottom: 10px;
 }
 
