@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comentários sobre Apresentações</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Comentários sobre a Apresentação</h1>
+    </header>
+
+    <section class="comment-section">
+        <h2>Deixe seu comentário:</h2>
+        
+        <form action="#" method="POST" class="comment-form">
+            <label for="nome">Seu nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="comentario">Seu comentário:</label>
+            <textarea id="comentario" name="comentario" rows="4" required></textarea>
+
+            <button type="submit">Enviar comentário</button>
+        </form>
+    </section>
+
+    <section class="comments">
+        <h2>Comentários:</h2>
+
+        <div class="comment">
+            <p class="comment-author">João Silva</p>
+            <p class="comment-text">A apresentação foi excelente! Muito bem explicada e clara. Parabéns ao apresentador!</p>
+        </div>
+
+        <div class="comment">
+            <p class="comment-author">Maria Oliveira</p>
+            <p class="comment-text">Achei interessante, mas a parte sobre a análise de dados poderia ser mais detalhada.</p>
+        </div>
+
+        <div class="comment">
+            <p class="comment-author">Carlos Souza</p>
+            <p class="comment-text">Ótima apresentação, gostei muito das demonstrações práticas. Precisa melhorar o ritmo, ficou um pouco lento em alguns momentos.</p>
+        </div>
+    </section>
+
+</body>
+</html>

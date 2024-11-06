@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(img/fundo-sarau.webp);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #870607;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.main-video {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.main-video video {
+    width: 80%;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.video-thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    padding: 20px;
+    background-color: #870607;
+    width: 1000px;
+    height: 140px;
+    border-radius: 50px;
+}
+
+.thumbnail {
+    width: 180px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.thumbnail img {
+    width: 100%;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+.thumbnail img:hover {
+    transform: scale(1.05);
+}
+
+.thumbnail p {
+    margin: 8px 0 0;
+    font-size: 14px;
+    color: white;
+}
+footer{
+    background-color: #870607;
+}
+.footer {
+    background-color:  #870607;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+.footer .social-icons a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
